@@ -17,13 +17,19 @@
       "required": true
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "required": true
     },
     "phone_number": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "required": true,
+      "max": "13"
     },
     "package_type": {
       "type": "string"
+    },
+    "message": {
+      "type": "text"
     }
   }
 }
