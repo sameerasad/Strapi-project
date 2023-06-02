@@ -22,8 +22,7 @@
     },
     "phone_number": {
       "type": "biginteger",
-      "required": true,
-      "max": "13"
+      "required": true
     },
     "package_type": {
       "type": "string"
